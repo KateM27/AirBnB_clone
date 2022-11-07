@@ -6,7 +6,7 @@
     border-radius: 4px;
     display: flex;
     align-items: center;
-    position: relative;
+    justify-content: flex-end;
 }
 
 section.filters button {
@@ -15,14 +15,13 @@ section.filters button {
     color: #FFFFFF;
     height: 48px;
     width: 20%;
-    border: 0;
+    border: none;
     border-radius: 4px;
     margin-right: 30px;
-    position: absolute;
 }
 
 section.filters button:hover {
-    opacity: 0.9;
+    opacity: 90%;
 }
 
 .locations, .amenities {
